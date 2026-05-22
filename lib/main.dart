@@ -29,12 +29,12 @@ class _CommunityAppShellState extends State<CommunityAppShell> {
   bool _initialized = false;
   bool _error = false;
   String _errorDetails = '';
-  bool _offlineMode = true;
+  bool _offlineMode = false; // Try Firebase first by default
 
   @override
   void initState() {
     super.initState();
-    // Start directly in Offline Sandbox mode to prevent background thread crashes on Windows
+    _initializeFirebase(); // Always attempt Firebase on startup
   }
 
   // Robust Firebase Initialization & error tracking

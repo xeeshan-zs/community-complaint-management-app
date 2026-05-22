@@ -14,7 +14,7 @@ class FirebaseService {
   final List<Complaint> _mockStorage = [];
   final StreamController<List<Complaint>> _mockStreamController = StreamController<List<Complaint>>.broadcast();
 
-  bool _forceOffline = true;
+  bool _forceOffline = false; // Default: try Firebase cloud first
 
   bool get forceOffline => _forceOffline;
 
