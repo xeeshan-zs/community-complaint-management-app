@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "495288152724",
+    "project_id": "community-complaint-management",
+    "storage_bucket": "community-complaint-management.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495288152724:android:e36aebbf6cd6167f60fa81",
+        "android_client_info": {
+          "package_name": "com.society.community_complaint_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJHv3kV_xif65OPt4J09PoKL1GF8HMXXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
